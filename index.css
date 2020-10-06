@@ -31,5 +31,24 @@ img {
   }
 
   h1 {
-      text-align: center;
+    font-family: 'Corben';
+    text-align: center;
+  }
+
+  h2 {
+    font-family: 'Corben';
+    color: skyblue;
+  }
+
+  h3, h4 {
+    font-family: 'Corben';
+    color: seagreen;
+  }
+
+  div {
+    font-family: 'Nobile'
+  }
+
+  body {
+    background: url(cream_dust.png) repeat 0 0;
   }
