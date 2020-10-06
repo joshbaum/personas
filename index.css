@@ -1,1 +1,35 @@
 /* Put your style information here! */
+
+img {
+    margin: 10px;
+    border: 3px solid #000;
+    box-shadow: 3px 3px 8px 0px;
+    max-width: 800px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+  .dub {
+      flex-grow: 2;
+  }
+
+  .mid {
+    align-items: center;
+  }
+
+  h1 {
+      text-align: center;
+  }
